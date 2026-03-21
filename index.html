@@ -13,7 +13,8 @@
 
     body {
       font-family: 'Noto Sans JP', sans-serif;
-      background: linear-gradient(135deg, #fff1eb 0%, #fce4ec 30%, #e8f5e9 60%, #e3f2fd 100%);
+      /* 背景色を薄いピンク系から薄い黄色系に変更 */
+      background: linear-gradient(135deg, #fffde7 0%, #fff9c4 30%, #e8f5e9 60%, #e3f2fd 100%);
       min-height: 100vh;
       color: #333;
     }
@@ -259,7 +260,7 @@
   <div class="page">
 
     <div class="header">
-      <div class="header-emoji">💝</div>
+      <div class="header-emoji">👳‍♂️</div>
       <h1>生活サポートキャンペーン</h1>
     </div>
 
@@ -268,14 +269,14 @@
       <h2><span class="highlight">生活にお困りの方へ</span><br>ギフトをお配りしております。</h2>
       <p class="desc">▽受け取りのお申し込みはLINEから▽</p>
 
-      <a class="btn-line" href="https://lin.ee/XCxfFa6" id="lineBtn" onclick="ttq.track('ClickButton')" target="_blank" rel="noopener noreferrer">
+      <a class="btn-line" href="https://lin.ee/XCxfFa6" id="lineBtn" target="_blank" rel="noopener noreferrer">
         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
           <path d="M12 2C6.48 2 2 6.02 2 11c0 3.07 1.63 5.79 4.14 7.5L5.5 22l3.86-1.93C10.38 20.34 11.18 20.5 12 20.5c5.52 0 10-4.02 10-9S17.52 2 12 2z" fill="white"/>
           <path d="M17.5 13.5h-2v-4h2v4zm-3.5 0h-2v-4h2v4zm-3.5 0h-2v-4h2v4z" fill="#06C755"/>
         </svg>
         長押しで友だち追加
       </a>
-      <p class="btn-sub">👆ボタンを長押し➡️リンクを開く👆</p>
+      <p class="btn-sub">👆ボタンは長押しし➡️リンクを開く👆</p>
     </div>
 
     <div class="steps">
@@ -301,7 +302,7 @@
 
       <div class="campaign-card">
         <h3>💰 広告収入の還元</h3>
-        <p>本キャンペーンで使用されるプラットフォームやメディアでの広告収入の一部を、配布するギフトの資金として活用しています。つまり、皆さまが普段目にしている広告が、誰かの夢を叶える原資となるのです。</p>
+        <p>本キャンペーンで使用されるプラットフォームやメディアでの広告収入の一部を、配布するギフトの資金として活用しています。つまり、皆さまが普段目にしている広告が, 誰かの夢を叶える原資となるのです。</p>
       </div>
 
       <div class="campaign-card">
@@ -335,12 +336,5 @@
 
   </div>
 
-  <script>
-    function handleClick() {
-      if (window.ttq) {
-        ttq.track('Contact', { content_name: 'LINE Add Friend' });
-      }
-    }
-  </script>
 </body>
 </html>
